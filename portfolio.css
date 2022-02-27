@@ -1,7 +1,7 @@
 :root {
   ---heading-font: "Roboto Serif", sans-serif;
   ---default-font: "Roboto", sans-serif;
-  ---default-text-color: rgb(85, 186, 226);
+  ---default-text-color: #f8c52d;
 }
 
 h1 {
@@ -18,20 +18,9 @@ body {
   background-repeat: no-repeat;
 }
 
-h1,
-h2,
-p,
-a {
-  text-align: center;
-  margin-top: 60px;
-}
-
 .container {
-  text-align: center;
   font-family: var(---default-font);
   color: var(---default-text-color);
-  margin: 0;
-  padding: 0;
 }
 
 .btn-branding {
