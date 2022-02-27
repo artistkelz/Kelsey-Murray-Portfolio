@@ -5,3 +5,8 @@ h1 {
 p {
   font-family: "Roboto", sans-serif;
 }
+
+.container {
+  background-image: url(/src/watercolor-background.webp);
+  text-align: center;
+}
