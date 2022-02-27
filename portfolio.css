@@ -1,12 +1,44 @@
-h1 {
-  font-family: "Roboto Serif", sans-serif;
+:root {
+  ---heading-font: "Roboto Serif", sans-serif;
+  ---default-font: "Roboto", sans-serif;
+  ---default-text-color: rgb(85, 186, 226);
 }
 
-p {
-  font-family: "Roboto", sans-serif;
+h1 {
+  font-family: var(---heading-font);
+  color: var(---default-text-color);
+}
+
+body {
+  background-image: url(/src/tropical.png);
+  background-size: auto;
+  background-position: top;
+  background-attachment: fixed;
+  background-color: turquoise;
+  background-repeat: no-repeat;
+}
+
+h1,
+h2,
+p,
+a {
+  text-align: center;
+  margin-top: 60px;
 }
 
 .container {
-  background-image: url(/src/watercolor-background.webp);
   text-align: center;
+  font-family: var(---default-font);
+  color: var(---default-text-color);
+  margin: 0;
+  padding: 0;
+}
+
+.btn-branding {
+  background: white;
+  border-radius: 4px;
+  color: var(---default-text-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 18px;
 }
