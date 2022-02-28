@@ -1,7 +1,9 @@
 :root {
   ---heading-font: "Kaushan Script", cursive;
   ---default-font: "The Girl Next Door", cursive;
-  ---default-text-color: #668676;
+  ---default-text-color: #527965;
+  ---alternate-color: #a068a0;
+  ---secondary-background: #2f4f4f;
 }
 
 h1,
@@ -25,14 +27,24 @@ body {
 }
 
 .logo {
-  background-color: lightgrey;
+  background-color: var(---alternate-color);
 }
 
 .btn-branding {
-  background: white;
+  background: var(---secondary-background);
   border-radius: 4px;
   color: var(---default-text-color);
   font-size: 18px;
   line-height: 27px;
-  padding: 12px 18px;
+  padding: 12px 16px;
+}
+
+.container-about {
+  font-family: var(---default-font);
+  color: var(---alternate-color);
+  background-color: var(---secondary-background);
+  border: 1px solid var(---secondary-background);
+  border-radius: 4px;
+  padding: 16px 20px;
+  margin: 300px;
 }
