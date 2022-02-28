@@ -1,26 +1,31 @@
 :root {
-  ---heading-font: "Roboto Serif", sans-serif;
-  ---default-font: "Roboto", sans-serif;
-  ---default-text-color: #f8c52d;
+  ---heading-font: "Kaushan Script", cursive;
+  ---default-font: "The Girl Next Door", cursive;
+  ---default-text-color: #668676;
 }
 
-h1 {
+h1,
+h2 {
   font-family: var(---heading-font);
   color: var(---default-text-color);
 }
 
 body {
-  background-image: url(/src/tropical.png);
-  background-size: auto;
-  background-position: top;
-  background-attachment: fixed;
-  background-color: turquoise;
+  background-color: #f7b453;
+  background-image: url(./src/sunflower.png);
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
+  background-size: 250px;
 }
 
 .container {
   font-family: var(---default-font);
   color: var(---default-text-color);
+}
+
+.logo {
+  background-color: lightgrey;
 }
 
 .btn-branding {
