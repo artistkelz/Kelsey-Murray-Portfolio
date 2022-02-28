@@ -48,3 +48,9 @@ body {
   padding: 16px 20px;
   margin: 300px;
 }
+
+@media (max-width: 724px) {
+  .container-about {
+    margin: 20px;
+  }
+}
