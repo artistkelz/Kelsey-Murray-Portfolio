@@ -33,10 +33,14 @@ body {
 .btn-branding {
   background: var(---secondary-background);
   border-radius: 4px;
-  color: var(---default-text-color);
+  color: var(---alternate-color);
   font-size: 18px;
   line-height: 27px;
   padding: 12px 16px;
+}
+
+:hover.btn-branding {
+  color: white;
 }
 
 .container-about {
