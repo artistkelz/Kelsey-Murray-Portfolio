@@ -7,7 +7,8 @@
 }
 
 h1,
-h2 {
+h2,
+.typewriter {
   font-family: var(---heading-font);
   color: var(---default-text-color);
 }
@@ -21,13 +22,22 @@ body {
   background-size: 250px;
 }
 
+.typewriter {
+  font-size: 2rem;
+}
+
 .container {
   font-family: var(---default-font);
   color: var(---default-text-color);
+  margin-top: 50px;
 }
 
 .logo {
   background-color: var(---alternate-color);
+}
+
+.header {
+  margin-top: 200px;
 }
 
 .btn-branding {
