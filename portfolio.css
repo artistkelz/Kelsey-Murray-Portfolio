@@ -7,8 +7,7 @@
 }
 
 h1,
-h2,
-.typewriter {
+h2 {
   font-family: var(---heading-font);
   color: var(---default-text-color);
 }
@@ -27,6 +26,7 @@ body {
 }
 
 .container {
+  text-align: center;
   font-family: var(---default-font);
   color: var(---default-text-color);
   margin-top: 50px;
@@ -43,14 +43,14 @@ body {
 .btn-branding {
   background: var(---secondary-background);
   border-radius: 4px;
-  color: var(---alternate-color);
+  color: white;
   font-size: 18px;
   line-height: 27px;
   padding: 12px 16px;
 }
 
 :hover.btn-branding {
-  color: white;
+  color: var(---alternate-color);
 }
 
 .container-about {
@@ -59,12 +59,28 @@ body {
   background-color: var(---secondary-background);
   border: 1px solid var(---secondary-background);
   border-radius: 4px;
-  padding: 16px 20px;
-  margin: 300px;
+  padding: 12px 20px;
+  margin: 100px;
+}
+
+.about {
+  padding: 10px;
+}
+
+.about h1 {
+  color: var(---alternate-color);
+}
+
+.paragraph {
+  padding: 10px;
+  color: white;
 }
 
 @media (max-width: 724px) {
   .container-about {
     margin: 20px;
+  }
+  .header {
+    margin: 40px;
   }
 }
