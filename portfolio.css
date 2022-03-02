@@ -29,15 +29,10 @@ body {
   text-align: center;
   font-family: var(---default-font);
   color: var(---default-text-color);
-  margin-top: 50px;
 }
 
 .logo {
   background-color: var(---alternate-color);
-}
-
-.header {
-  margin-top: 200px;
 }
 
 .btn-branding {
