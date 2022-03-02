@@ -71,6 +71,17 @@ body {
   color: white;
 }
 
+.email,
+.linkedin {
+  text-decoration: none;
+  color: var(---default-text-color);
+}
+
+:hover.email,
+:hover.linkedin {
+  color: var(---alternate-color);
+}
+
 @media (max-width: 724px) {
   .container-about {
     margin: 20px;
