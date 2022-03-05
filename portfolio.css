@@ -21,6 +21,23 @@ body {
   background-size: 250px;
 }
 
+.navbar,
+.navbar-link,
+.navbar-brand {
+  font-family: var(---heading-font);
+  font-size: 24px;
+  color: var(---alternate-color);
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+}
+
 .typewriter {
   font-size: 2rem;
 }
