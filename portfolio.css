@@ -21,6 +21,35 @@ body {
   background-size: 250px;
 }
 
+footer .contact-box {
+  border: 3px solid var(---secondary-background);
+  border-radius: 4px;
+}
+
+footer .fa-linkedin,
+.fa-github {
+  color: white;
+  width: 38px;
+  background-color: var(---secondary-background);
+  border-radius: 50px;
+  padding: 10px 10px;
+  margin-bottom: 8px;
+}
+
+footer :hover.fa-github,
+:hover.fa-linkedin,
+:hover.shecodes-logo {
+  background-color: var(---alternate-color);
+}
+
+footer .shecodes-logo {
+  width: 36px;
+  background-color: var(---secondary-background);
+  border-radius: 50px;
+  padding: 10px 8px;
+  margin-bottom: 4px;
+}
+
 .navbar,
 .navbar-link,
 .navbar-brand {
