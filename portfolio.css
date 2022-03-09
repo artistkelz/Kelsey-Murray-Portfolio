@@ -22,18 +22,27 @@ body {
   background-size: 250px;
 }
 
+footer {
+  margin-bottom: 30px;
+}
+
 footer .contact-box {
   background-color: var(---secondary-background);
   border-radius: 4px;
   font-family: var(---default-font);
   color: white;
   padding: 12px 20px;
-  margin: 100px;
+  margin: 20px;
+}
+
+footer .work {
+  margin: 10px 20px;
 }
 
 footer .btn-branding {
   background-color: white;
   color: var(---default-text-color);
+  margin: 15px 20px;
 }
 
 footer :hover.btn-branding {
@@ -70,11 +79,12 @@ footer h4 {
 }
 
 .navbar,
-.navbar-link,
-.navbar-brand {
+.navbar-brand,
+.navbar-link a {
   font-family: var(---heading-font);
   font-size: 24px;
-  color: var(---alternate-color);
+  color: var(---default-text-color);
+  opacity: 10;
 }
 
 .navbar-brand {
@@ -153,5 +163,11 @@ footer h4 {
   }
   .header {
     margin: 40px;
+  }
+  .contact-box {
+    flex-wrap: wrap;
+  }
+  .button {
+    margin-right: 45px;
   }
 }
