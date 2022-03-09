@@ -23,6 +23,8 @@ body {
 }
 
 footer {
+  color: var(---default-text-color);
+  font-family: var(---default-font);
   margin-bottom: 30px;
 }
 
@@ -96,10 +98,6 @@ footer h4 {
   justify-content: center;
 }
 
-.typewriter {
-  font-size: 2rem;
-}
-
 .container {
   text-align: center;
   font-family: var(---default-font);
@@ -146,14 +144,20 @@ footer h4 {
   color: white;
 }
 
+.dictionary {
+  background-color: white;
+}
+
 .email,
-.linkedin {
+.linkedin,
+.open-source {
   text-decoration: none;
   color: var(---default-text-color);
 }
 
 :hover.email,
-:hover.linkedin {
+:hover.linkedin,
+:hover.open-source {
   color: var(---alternate-color);
 }
 
@@ -166,8 +170,5 @@ footer h4 {
   }
   .contact-box {
     flex-wrap: wrap;
-  }
-  .button {
-    margin-right: 45px;
   }
 }
