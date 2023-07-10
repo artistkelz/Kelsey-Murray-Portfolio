@@ -145,7 +145,13 @@ footer h4 {
 }
 
 .kelsey {
+  display: block;
+  margin: 0 auto;
   max-width: 30%;
+}
+
+.contents {
+  margin-top: 40px;
 }
 
 .dictionary {
